@@ -1,0 +1,47 @@
+body {
+  background-color: #dedede;
+  padding-top: 30px;
+}
+
+h3 {
+  color: #555555;
+  text-transform: uppercase;
+}
+img {
+  position: absolute;
+  bottom: 140px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+div#hands span.hand {
+  cursor: pointer;
+}
+
+div#hands span.hand:hover {
+  color: rgb(28, 97, 124);
+}
+
+span.hand-text {
+  font-weight: bold;
+  color: grey;
+}
+
+div.hands-score {
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 50px;
+  display: block;
+}
+
+div#userscore,
+div#computerscore {
+  font-size: 50px;
+  color: #31708f;
+}
+
+div#result {
+  font-weight: bold;
+  font-size: 20px;
+}
